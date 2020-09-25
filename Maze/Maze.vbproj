@@ -19,7 +19,7 @@
     <OptionInfer>On</OptionInfer>
     <ApplicationIcon>maze_38213.ico</ApplicationIcon>
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
     <SignAssembly>false</SignAssembly>
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <TargetZone>LocalIntranet</TargetZone>
@@ -29,7 +29,7 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>3.5</OldToolsVersion>
-    <PublishUrl>C:\Biology\Maze\</PublishUrl>
+    <PublishUrl>C:\Users\خليل سليم\Documents\GitHub\Biology\Published Files\Maze\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -41,7 +41,7 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ProductName>المتاهة</ProductName>
     <PublisherName>Developers Plus</PublisherName>
-    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationRevision>2</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
