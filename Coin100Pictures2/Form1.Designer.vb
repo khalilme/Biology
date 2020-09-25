@@ -229,7 +229,7 @@ Partial Class Form1
         '
         'PictureInfoBindingSource
         '
-        Me.PictureInfoBindingSource.DataSource = GetType(Coin100Pictures.PictureInfo)
+        Me.PictureInfoBindingSource.DataSource = GetType(Coin100Pictures2.PictureInfo)
         '
         'lblSpeed
         '

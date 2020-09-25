@@ -52,7 +52,7 @@ Public Class Form1
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         lblPictures.Text = Coins.MaxPicNo
         lblTrials.Text = Coins.Trials.ToString("N0")
-        lblTime.Text = Coins.ElapsedTime.ToString("d\ \ي\و\م\ \و\ h\ \س\ا\ع\ة\ \و\ m\ \د\ق\ي\ق\ة\ \و\ s\ \ث\ا\ي\ة")
+        lblTime.Text = Coins.ElapsedTime.ToString()
         lblSpeed.Text = Coins.Trials \ Coins.ElapsedTime.TotalSeconds & " محاولة في الثانية"
 
         If DataGridView1.RowCount < Coins.PicsInfo.Count Then
@@ -68,7 +68,7 @@ Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         lblPictures.Text = Coins.MaxPicNo
         lblTrials.Text = Coins.Trials.ToString("N0")
-        lblTime.Text = Coins.ElapsedTime.ToString("d\ \ي\و\م\ \و\ h\ \س\ا\ع\ة\ \و\ m\ \د\ق\ي\ق\ة\ \و\ s\ \ث\ا\ي\ة")
+        lblTime.Text = Coins.ElapsedTime.ToString()
         If Coins.ElapsedTime.TotalSeconds > 0 Then
             lblSpeed.Text = Coins.Trials \ Coins.ElapsedTime.TotalSeconds & " محاولة في الثانية"
         End If
